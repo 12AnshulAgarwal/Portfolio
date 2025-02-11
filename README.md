@@ -52,7 +52,12 @@ To run this project locally, follow these steps:
 
 4. **Set up environment variables:**
    Create a `.env` file and add the required environment variables, such as API keys and OAuth credentials.
-
+   ```sh
+   REACT_APP_EMAILJS_USERID=your_emailjs_user_id
+   REACT_APP_EMAILJS_TEMPLATEID=your_emailjs_template_id
+   REACT_APP_EMAILJS_RECEIVERID=your_emailjs_receiver_id
+   ```
+   
 ## 🚀 Why Vercel for Deployment?
 I chose **Vercel** for deployment because:
 - **Blazing Fast Performance:** Optimized for frontend applications.
